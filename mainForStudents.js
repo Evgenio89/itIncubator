@@ -128,7 +128,7 @@ let studentsWithMarriedNick = students.map(s => s.name === "Nick" ? {...s, isMar
 let ann = students.find(s => s.name === "Ann");
 console.log(ann)
 
-//12. Найдите студента с самым высоким баллом (reduce)
+//12. Найдите студента с самым высоким баллом (reduce) 56
 // - c помощью reduce
 // - не испльзуя методы массивов и Math.max()
 //let bestStudent = students.reduce((acc, el) => acc.scores < el.scores ? el : acc);
